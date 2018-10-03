@@ -18,6 +18,8 @@
 'use strict'
 
 module.exports = {
-  protobuf: require('./protobuf'),
-  signing: require('./signing')
+    protobuf: require('./protobuf'),
+    signing: require('./signing'),
+    crypto: require('./browserify-bundles/crypto/crypto'),
+    secp256k1: require('./browserify-bundles/secp256k1/secp256k1')
 }
