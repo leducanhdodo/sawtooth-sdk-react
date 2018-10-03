@@ -23,6 +23,9 @@ const { createHash, randomBytes } = require('../browserify-bundles/crypto/crypto
 
 const { PrivateKey, PublicKey, Context, ParseError } = require('./core')
 
+const {Buffer} = require('../browserify-bundles/buffer/buffer')
+
+
 /**
  * A Secp256k1 specific implementation of the PrivateKey class.
  */
