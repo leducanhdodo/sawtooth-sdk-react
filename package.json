@@ -13,7 +13,6 @@
   "repository": "https://github.com/hyperledger/sawtooth-sdk-javascript.git",
   "main": "index.js",
   "scripts": {
-    "test": "standard && node_modules/mocha/bin/mocha --recursive spec",
     "compile_protobuf": "node compile_protobuf.js > protobuf/protobuf_bundle.json",
     "prepublish": "npm run compile_protobuf && npm test"
   },
@@ -26,7 +25,6 @@
     "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
     "standard": "^8.6.0",
     "underscore": "^1.8.3"
   },
