@@ -22,6 +22,7 @@
   "dependencies": {
     "cbor": "^4.1.1",
     "protobufjs": "^6.7.3",
+    "protocol-buffers": "^4.1.0",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
