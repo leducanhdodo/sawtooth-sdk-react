@@ -1,6 +1,6 @@
 {
-  "name": "sawtooth-sdk",
-  "version": "1.0.4",
+  "name": "sawtooth-sdk-react",
+  "version": "1.0.0",
   "description": "An SDK for interacting with the Hyperledger Sawtooth distributed ledger.",
   "keywords": [
     "hyperledger",
@@ -10,7 +10,7 @@
     "protobuf"
   ],
   "homepage": "https://www.hyperledger.org/projects/sawtooth",
-  "repository": "https://github.com/hyperledger/sawtooth-sdk-javascript.git",
+  "repository": "https://github.com/leducanhdodo/sawtooth-sdk-react.git",
   "main": "index.js",
   "scripts": {
     "compile_protobuf": "node compile_protobuf.js > protobuf/protobuf_bundle.json",
