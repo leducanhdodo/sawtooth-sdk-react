@@ -18,10 +18,13 @@
 /** @module signing/secp256k1 */
 'use strict'
 
-const secp256k1 = require('secp256k1')
-const { createHash, randomBytes } = require('crypto')
+const secp256k1 = require('../browserify-bundles/secp256k1/secp256k1')
+const { createHash, randomBytes } = require('../browserify-bundles/crypto/crypto')
 
 const { PrivateKey, PublicKey, Context, ParseError } = require('./core')
+
+const {Buffer} = require('../browserify-bundles/buffer/buffer')
+
 
 /**
  * A Secp256k1 specific implementation of the PrivateKey class.
